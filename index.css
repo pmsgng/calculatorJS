@@ -41,6 +41,9 @@
     /* width: 29rem; */
     /* height: 3.5rem; */
     /* border: 1px solid gray; */
+    color: white;
+    font-size: 3.5rem;
+    font-style: normal;
 }
 .main__btns-all {
     display: flex;
@@ -68,6 +71,7 @@
     box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;    
     border: none;
     background-color: #c8c8c8;
+    border-radius: .2rem;
 }
 .main__btn-number:active {
     transform: scale(0.98);
@@ -90,6 +94,7 @@
     background-color: #ff792c;
     box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;    
     border: none;
+    border-radius: .2rem;
 }
 .main__btn-operator:active {
     transform: scale(0.97);
