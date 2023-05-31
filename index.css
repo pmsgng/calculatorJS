@@ -38,9 +38,6 @@
 
 }
 .main__output-text{
-    /* width: 29rem; */
-    /* height: 3.5rem; */
-    /* border: 1px solid gray; */
     color: white;
     font-size: 3.5rem;
     font-style: normal;
@@ -48,7 +45,6 @@
 .main__btns-all {
     display: flex;
     align-items: center;
-    /* border: 1px solid black; */
     width: 30rem;
     height: 15rem;
 
@@ -56,7 +52,6 @@
 .main__btns-numbers {
     height: 15rem;
     width: 19.5rem;
-    /* border: 1px solid black; */
     padding: .5rem;
     display: flex;
     justify-content: start;

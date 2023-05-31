@@ -16,10 +16,6 @@ function clearAll() {
     output.textContent = '0'
 }
 
-// document.querySelector('.btn-ac').addEventListener('click', () => {
-//      clearAll()
-// });
-
 document.querySelector('.main__btns-all').addEventListener('click' , e => {
     if(!e.target.classList.contains('main__btn-number') && !e.target.classList.contains('main__btn-operator')) return
     if(e.target.classList.contains('btn-ac')) {
@@ -60,7 +56,6 @@ document.querySelector('.main__btns-all').addEventListener('click' , e => {
                 }
             }
             if(key !== '.') b += key;
-            // b += key;
             output.textContent = b;
             console.log(a,b,operator)
         }
