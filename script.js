@@ -33,8 +33,16 @@ document.querySelector('.main__btns-all').addEventListener('click' , e => {
     //нажата цифра 0 - 9
     if(numbers.includes(key)) {
         if(b === '' && operator === '') {
-            a += key;
-            console.log(a,b,operator)
+            // исключение повторного нажатие точки
+            if(key === '.') {
+                if(a.includes('.')) {
+                    a = a + ''
+                } else {
+                    a += key;
+                }
+            }
+            if(key !== '.') a += key;
+            console.log(`a: ${a},b; ${b},operator: ${operator}`)
             output.textContent = a;
         }
         else if(a !== '' && b !== '' && finish) {
@@ -43,7 +51,16 @@ document.querySelector('.main__btns-all').addEventListener('click' , e => {
             output.textContent = b;
         }
         else {
-            b += key;
+            // исключение повторного нажатие точки
+            if(key === '.') {
+                if(b.includes('.')) {
+                    b = b + ''
+                } else {
+                    b += key;
+                }
+            }
+            if(key !== '.') b += key;
+            // b += key;
             output.textContent = b;
             console.log(a,b,operator)
         }
