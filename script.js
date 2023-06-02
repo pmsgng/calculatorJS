@@ -92,9 +92,10 @@ document.querySelector('.main__btns-all').addEventListener('click' , e => {
                     return;
                 }
                 a = a / b;
+                console.log(a)
                 break;
         }
         finish = true;
-        output.textContent = a;
+        output.textContent = a.toFixed(4);
     }
 })
