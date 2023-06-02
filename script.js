@@ -96,6 +96,11 @@ document.querySelector('.main__btns-all').addEventListener('click' , e => {
                 break;
         }
         finish = true;
-        output.textContent = a.toFixed(4);
+        let stroke = `${a}`;
+        if(stroke.includes('.')) {
+            return output.textContent = (+a).toFixed(2);
+        } else {
+            output.textContent = +a;
+        }
     }
 })
