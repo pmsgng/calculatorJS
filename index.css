@@ -109,8 +109,8 @@
         padding: 1rem;
     }
     .main__output {
-        width: 20rem;
-        height: 7rem;
+        width: 17rem;
+        height: 3rem;
         font-size: 1rem;
         padding: 1rem;
         overflow: hidden;
@@ -124,6 +124,7 @@
     .main__btns-all {
         width: 20rem;
         height: 10rem;
+        padding-right: 1.5rem;
     }
     .main__btns-numbers {
         display: flex;
