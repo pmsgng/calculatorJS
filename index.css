@@ -103,7 +103,7 @@
     background-color: #ff6d18;
 }
 
-@media screen and (max-width: 569px) {
+@media screen and (max-width: 569px), screen and (max-height: 390px) {
     .main{
         width: 22rem;
         height: 17rem;
