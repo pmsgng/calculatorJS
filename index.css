@@ -104,9 +104,9 @@
 
 @media screen and (max-width: 569px) {
     .main{
-        width: 25rem;
+        width: 22rem;
         height: 17rem;
-        padding: 1rem;
+        padding-top: 1.5rem;
     }
     .main__output {
         width: 17rem;
