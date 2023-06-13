@@ -96,11 +96,10 @@ document.querySelector('.main__btns-all').addEventListener('click' , e => {
                 break;
         }
         finish = true;
-        let stroke = `${a}`;
-        if(stroke.includes('.')) {
-            return output.textContent = (+a).toFixed(2);
-        } else {
+        if(Number.isInteger((+a))) {
             output.textContent = +a;
+        } else {
+            output.textContent = (+a).toFixed(9)
         }
     }
 })

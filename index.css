@@ -100,3 +100,46 @@
 .btn-equal {
     background-color: #ff6d18;
 }
+
+@media screen and (max-width: 569px) {
+    .main{
+        width: 25rem;
+        height: 15rem;
+        padding: 1rem;
+    }
+    .main__output {
+        width: 20rem;
+        height: 7rem;
+        font-size: 1rem;
+        padding: 1rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .main__output-text{
+        color: white;
+        font-size: 1.5rem;
+        font-style: normal;
+    }
+    .main__btns-all {
+        width: 20rem;
+        height: 10rem;
+    }
+    .main__btns-numbers {
+        height: 10rem;
+        width: 13.5rem;
+    }
+    .main__btn-number {
+        width: 3rem;
+        height: 2.5rem;
+    }
+    .main__btns-operators {
+        height: 10rem;
+        width: 6.5rem;
+        padding-top: .7rem;
+    }
+    .main__btn-operator {
+        width: 3rem;
+        height: 2.5rem;
+        margin-bottom: .4rem;
+    }
+}
