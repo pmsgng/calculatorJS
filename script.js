@@ -99,7 +99,7 @@ document.querySelector('.main__btns-all').addEventListener('click' , e => {
         if(Number.isInteger((+a))) {
             output.textContent = +a;
         } else {
-            output.textContent = (+a).toFixed(9)
+            output.textContent = parseFloat((+a).toFixed(9)) 
         }
     }
 })
